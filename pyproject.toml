@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hafez"
+version = "0.1.0"
+description = ""
+authors = ["Mohammed Bakheet <m.yousify@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.43.2"
+datasets = "^2.20.0"
+torch = "^2.4.0"
+logging = "^0.4.9.6"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+librosa = "^0.10.2.post1"
+torchaudio = "^2.4.0"
+tnkeeh = "^0.0.9"
+evaluate = "^0.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
